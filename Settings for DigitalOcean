@@ -1,3 +1,5 @@
+Manual for DigitalOcean: https://github.com/digitalocean/terraform-provider-digitalocean/tree/main/docs/resources
+
 1. export DO_PAT="your_personal_access_token" # Add token to variable.
 2. export TF_LOG=1 # Will enable detailed logging of what Terraform is trying to do.
 3. terraform init # Initialize Terraform for your project by running.
