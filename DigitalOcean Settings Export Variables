@@ -1,8 +1,0 @@
-export DIGITALOCEAN_ACCESS_TOKEN=dop_v1_1faa451fd3b22214a6b607a3061440539922ace7d03e99e633c5aa913817ad0a
-export DIGITALOCEAN_SSH_KEY=Ansible-master-key
-
-1. export TF_LOG=1 # Will enable detailed logging of what Terraform is trying to do.
-2. terraform init # Initialize Terraform for your project by running.
-3. terraform plan # Run the terraform plan command to see the execution plan.
-4. terraform apply
-5. terraform destroy # Destroy Servers
