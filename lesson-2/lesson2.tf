@@ -22,12 +22,6 @@ resource "digitalocean_droplet" "example-1" {
   }
 
   provisioner "remote-exec" {
-#    inline = [
-#      "export PATH=$PATH:/usr/bin",
-#      # install nginx
-#      "sudo apt update",
-#      "sudo apt install -y nginx"
-#    ]
     script = "script-html.sh"
   }
 }
